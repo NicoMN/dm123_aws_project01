@@ -13,7 +13,7 @@ import org.springframework.context.annotation.Configuration;
 public class SnsConfig {
     @Value("${aws.region}")
     private String awsRegion;
-
+a
     @Value("${aws.sns.topic.product.events.arn}")
     private String productEventsTopic;
 
