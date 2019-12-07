@@ -13,6 +13,7 @@ public class Product {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    //This is a test
     private long id;
 
     @Column(length = 32, nullable = false)
